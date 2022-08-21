@@ -1,0 +1,614 @@
+/* AUTO=page_border */ .l-page { -webkit-box-shadow: 0px 0px 6px 8px rgba(0, 0, 0, 0.85);
+-moz-box-shadow: 0px 0px 6px 8px rgba(0, 0, 0, 0.85);
+box-shadow: 0px 0px 6px 8px rgba(0, 0, 0, 0.85);
+}
+body {
+    background: rgb(33, 33, 31) !important;
+}
+/* Шапка профиля */
+.l-top_menu-v2 {
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 25px;
+  background: #000000;  
+}
+.l-top_menu-v2 {
+background: #000000;
+}
+.l-top_menu-v2 .menu-dropdown>span {
+background: #000000;
+}.l-top_menu-v2 .submenu {
+background: #000000;
+border-bottom: 1px solid #000000;
+border-left: 1px solid #000000;
+border-right: 1px solid #000000;
+}
+.menu-dropdown.profile {
+  background-color: #000000;
+}
+.x1000 .l-top_menu-v2 {
+  max-width: 1800px;
+}
+.b-comments-notifier {
+  top: 0px !important;
+}
+.p-profiles-show .lifetime .title {
+    line-height: 2;
+    width: 100%;
+    margin-top: 6px;
+}
+.l-top_menu-v2 .submenu>a {
+    font-size: 12px;
+    height: 25px;
+    line-height: 38px;
+}
+.l-top_menu-v2 {
+    background: #000000;
+    color: #fff;
+    height: 30px;
+    position: relative;
+    z-index: 10;
+}
+.l-top_menu-v2 .menu-icon, .l-top_menu-v2 .menu-dropdown > span {
+    color: inherit;
+    display: flex;
+    height: 25px;
+}
+/*Затемнее истории и др.*/
+.p-profiles .profile-head .c-history .entry img {
+float: left;
+margin: 2px 10px 5px 2px;
+max-height: 52px;
+max-width: 37px;
+filter: grayscale(55%); 
+}
+.b-catalog_entry .cover .image-decor img {
+    width: 100%;
+    filter: grayscale(55%);
+}
+.b-club .logo {
+    float: left;
+    line-height: 0;
+    margin-right: 10px;
+    max-width: 100%;
+    width: 48px;
+    filter: grayscale(55%);
+}
+.b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img {
+    display: block;
+    line-height: 0;
+    margin: 0 auto;
+    max-width: 100%;
+    filter: grayscale(55%);
+}
+.b-image.b-poster img {
+    max-width: 100%;
+}
+img {
+    filter: grayscale(60%) sepia(13%);
+}
+.p-profiles .profile-head .c-history .entry img,
+.b-user.avatar img,
+.b-club .logo,
+.b-catalog_entry .cover .image-decor img,
+.b-achievement .c-image .inner a img,
+.b-badge img {
+  filter: grayscale(60%) sepia(13%);
+  transition: filter .4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.p-profiles .profile-head .c-history .entry img:hover,
+.b-user.avatar img:hover,
+.b-club .logo:hover,
+.b-catalog_entry .cover .image-decor img:hover,
+.b-achievement .c-image .inner a img:hover,
+.b-badge img:hover {
+  filter: grayscale(0%) sepia(0%);
+}
+/*Активность*/
+.bar.simple .bar:hover.s0 {
+background: rgb(30,30,30);
+border-radius: 1px;
+}
+
+.bar.simple .bar.s0 {
+background: rgb(30,30,30);
+border-radius: 1px;
+}
+
+.bar.simple .bar:hover.s1 {
+background: #7b8084;
+border-radius: 1px;
+}
+
+.bar.simple .bar.s1 {
+background: rgb(30,30,30);
+border-radius: 1px;
+}
+
+.bar.simple .bar:hover.s2 {
+background: #7b8084;
+border-radius: 1px;
+}
+
+.bar.simple .bar.s2 {
+background: rgb(30,30,30);
+border-radius: 1px;
+}
+
+.bar.simple .bar:hover.s3 {
+background: #7b8084;
+border-radius: 1px;
+}
+
+.bar.simple .bar.s3 {
+background: rgb(30,30,30);
+border-radius: 1px;
+}
+
+.b-stats_bar .bar .third {
+background: white;
+}
+/*Центрование в заголовках и линии*/
+
+.subheadline.m5 {
+    text-align: left!important;
+}
+.subheadline {
+    text-align: center;
+}
+.b-options-floated + .subheadline {
+  text-align: left;
+}
+.headline>a, .midheadline>a, .subheadline>a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: black;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.subheadline {
+    font-size: 14px;
+    padding: 6px 10px 4px 8px;
+    line-height: 14px;
+}
+.p-profiles-show .subheadline {
+    text-align: center!important;
+    background: rgb(235 235 235);
+}
+.headline, .midheadline, .subheadline {
+    border-left: 5px solid rgb(232,232,232);
+}
+.headline, .midheadline, .subheadline {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: rgb(229 229 229);
+}
+.subheadline-input {
+    margin-right: 0px;
+    margin-top: 0px;
+    line-height: 22px;
+}
+.midheadline .b-user16 img, .subheadline .b-user16 img {
+    margin-top: 0px;
+}
+/*Шрифт профиля*/
+:root {
+    --font-size-base-desktop: 13px;
+    --font-size-base-mobile: 13px;
+    --font-main: Helvetica Neue, Arial, Verdana, sans-serif;
+    --font-alt: Open Sans, Helvetica Neue, Arial, Verdana, sans-serif;
+    --font-code: Monaco, Menlo, Consolas, Ubuntu Mono, Courier New, monospace;
+    --font-alt-hadline-letter-spacing: 0.18px;
+    --font-alt-text-letter-spacing: -0.13px;
+    --top-menu-height: 46px;
+}
+:root {
+    --font-main: 'Courier New';
+    --font-alt: 'Courier New';
+    --font-alt-text-letter-spacing: normal;
+}
+.p-user_rates-index .list-lines tr td .ongoing {
+    color: #ff0914;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+.p-profiles .profile-head .c-info .c-additionals div a {
+    color: #000000;
+    cursor: pointer;
+}
+.b-stats_bar a.title {
+    color: #000000;
+    cursor: pointer;
+}
+.b-link {
+    color: #000000;
+    cursor: pointer;
+}
+header.head h1 a.back, header.head h2 a.back {
+    color: #000000;
+    display: inline-block;
+    font-size: 24px;
+    margin-left: -5px;
+    position: relative;
+    width: 40px;
+}
+.b-options-floated a, .b-options-floated .link {
+    color: #000000;
+    cursor: pointer;
+    cursor: pointer;
+    display: inline;
+    white-space: nowrap;
+}
+.p-user_history-index .history-page .history-interval p a {
+    color: #4e5257;
+    text-decoration: none;
+}
+.p-user_rates-index .list-lines tr .name a {
+    color: #000000;
+}
+.b-options-floated.mobile-desktop a {
+    color: #000000;
+}
+header.head a.misc, header.head a.edit {
+    color: #000000;
+    cursor: pointer;
+}
+html[data-color-mode=light] {
+    --link-color: #176093;
+    --link-hover-color: #9d9c9c;
+    --link-active-color: #ff0202;
+    --link-border-color: rgba(#176093, 0.3);
+    --link-border-hover-color: rgba(#dd5202, 0.3);
+    --link-border-active-color: rgba(#ff0202, 0.3);
+    --headline-color: #123;
+    --headline-background-color: #e8ebef;
+    --headline-border-color: #d8dde4;
+    --headline-arrow-color: $gray-2;
+}
+.b-options-floated .action {
+    color: #000000;
+    cursor: pointer;
+    border-bottom-color: var(--link-border-color);
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+    display: inline-block;
+    line-height: 1;
+}
+.b-topic>.inner .name-date a.name {
+    color: #333;
+    cursor: pointer;
+}
+.b-catalog_entry .cover .title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #333;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    line-height: 1.65;
+    margin-top: 5px;
+}
+.p-user_rates-index .stat-categories .category {
+    color: #333;
+    cursor: pointer;
+    float: left;
+    height: 21px;
+    line-height: 5px;
+    margin: 0 0 0 2px;
+    padding: 1px 5px;
+}
+.p-profiles-show .profile-content .activity .title {
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a {
+    color: #155785;
+    cursor: pointer;
+}
+.b-user.named_avatar .name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #0ea590;
+    cursor: pointer;
+    display: block;
+    line-height: 1.65;
+    text-align: center;
+}
+.b-add_to_list.watching .trigger, .b-add_to_list.watching .option {
+    background: #ffffff;
+    border-color: #000000;
+    color: #000000;
+}
+.b-add_to_list.completed .trigger, .b-add_to_list.completed .option {
+    background: #ffffff;
+    border-color: #000000;
+    color: #000000;
+}
+.b-anime_status_tag.other {
+    background-color: #9da2a8;
+    border: 1px solid #9da2a8;
+    color: #fff;
+}
+.b-add_to_list.planned .trigger, .b-add_to_list.planned .option {
+    background: #ffffff;
+    border-color: #000000;
+    color: #000000;
+}
+.b-db_entry>.c-about .additional-links .line-container>.link, .b-db_entry>.c-about .additional-links .line-container>a {
+    color: #000000;
+    cursor: pointer;
+    float: left;
+    margin-left: 5px;
+}
+.b-spoiler_block>span {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 0 10px;
+    background-color: #000;
+    border: 0;
+    clear: right;
+    color: #fff;
+}
+.b-anime_status_tag.critique {
+    background-color: #ff0c75;
+    border: 1px solid #ffffff;
+    color: #fff;
+}
+.b-catalog_entry-tooltip .inner a.name {
+    color: #000000;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.b-form input[type=submit] {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 0 10px;
+    background-color: #9da2a8;
+}
+.b-log_entry a, .b-log_entry .link {
+    color: #094d7c;
+    cursor: pointer;
+}
+.b-button {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 0 10px;
+    background-color: #9da2a8;
+    border: 0;
+    clear: right;
+    color: #fff;
+}
+/*Цвет рейтинга*/
+/* Звёзды рейтинга (фоновые) */
+.b-rate .stars.background {
+  color: #C0C0C0;
+}
+
+/* Звёзды рейтинга (активные) */
+.b-rate .stars.score {
+  color: #000000;
+}
+
+/* Звёзды рейтинга (при наведении) */
+.b-rate .stars.hover {
+  color: #000000;
+}
+/* Фиксированные размеры постеров */
+@import url(https://css-club.web.app/css/fixed_cover.min.css);
+/* Отображение дат в истории */
+@import url(https://raw.githubusercontent.com/kaurkaur/Shikimori/master/CSS/HistoryDates.css);
+
+/*таблица*/
+.p-user_rates-index .list-lines tr td {
+    padding: 1px 4px;
+    border: 1px solid;
+}
+.p-user_rates-index .list-lines tr td {
+    vertical-align: top;
+}
+.p-user_rates-index .list-lines tr .index {
+    color: rgb(0 0 0);
+}
+
+/*перевернутые числа*
+.c-lists-info .b-stats_bar .bar > div.second {
+    transform: scale(-1, 1);
+}
+/
+/*аниме и манга линии*/
+.b-stats_bar.anime .bar .first {
+background: black;
+border-radius: 2px;
+}
+
+.b-stats_bar.manga .bar .first {
+background: black;
+border-radius: 2px;
+}
+
+.b-stats_bar .bar .first, .b-stats_bar .bar .second, .b-stats_bar .bar .third {
+color: #DCDCDC;
+}
+
+.b-stats_bar.anime .bar .second {
+background:#DCDCDC; 
+}
+
+.b-stats_bar.manga .bar .second {
+background: #DCDCDC;
+}und: #DCDCDC;
+}
+.bar.vertical .line .bar-container .bar {
+bottom: 0;
+position: absolute;
+width: 75%;
+}
+/*время за аниме и мангой*/
+.b-stats_bar.lifetime .bar .first {
+    background: #7b8084;
+}
+.b-stats_bar .bar .first, .b-stats_bar .bar .second, .b-stats_bar .bar .third {
+    color: white;
+}
+.b-stats_bar .title {
+    color: #000;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 18px;
+}
+.p-profiles-show .lifetime .times .time.checked {
+    color: #000;
+}
+.p-profiles-show .lifetime .times .time {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000000;
+    display: inline-block;
+    font-size: 11px;
+    text-align: center;
+    width: 20%;
+}
+.p-profiles-show .lifetime .times .time.checked:before {
+    font-family: shikimori;
+    text-transform: none;
+    letter-spacing: normal;
+    content: "✓";
+    color: #000000;
+    font-size: 11px;
+    margin-right: 4px;
+}
+/*активность на сайте*/
+.bar.vertical .line .bar-container .bar {
+    bottom: 0px;
+     position: absolute; 
+    width: 100%;
+}
+/*Изменение цвета галочки в круге просмотренного*/ 
+.b-catalog_entry.completed .image-decor:before {
+    background: #fff;
+}
+.b-catalog_entry.planned .image-decor::before, .b-catalog_entry.watching .image-decor::before, .b-catalog_entry.completed .image-decor::before, .b-catalog_entry.rewatching .image-decor::before, .b-catalog_entry.on_hold .image-decor::before, .b-catalog_entry.dropped .image-decor::before {
+    border: 2px solid #333;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+    height: 28px;
+    width: 28px;
+    line-height: 28px;
+    content: '';
+    z-index: 1;
+}
+.b-catalog_entry.completed .image-decor:after {
+    color: #000;
+    content: "";
+}
+/*Напрямую, хронология и т.п.*/
+.b-options-floated {
+  margin-top: 10px;
+}
+.p-profiles-edit .b-options-floated {
+  margin-top: 7px;
+}
+.p-profiles-edit .b-options-floated {
+    font-size: 11px;
+    line-height: 10px;
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+}
+.b-options-floated {
+    font-size: 11px;
+    line-height: 5px;
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+}
+.b-anime_status_tag.contest {
+    background-color: #ffffff;
+    border: 1px solid #000;
+    color: #000;
+    cursor: default;
+}
+/*рамка вокруг аватарок*/
+img {
+    border: 1px solid black;
+}
+
+.p-user_rates-index .list-lines tr.edit-form form {
+    background: #f9f9f9;
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    padding: 5px 15px 7px;
+    display: block;
+    margin: 5px 0;
+    overflow: hidden;
+    padding: 5px 25px 10px 35px;
+    -webkit-transition: height 0.25s ease;
+    transition: height 0.25s ease;
+}
+.b-anime_status_tag.ongoing {
+    background-color: #b9c6cf;
+    border: 1px solid #ffffff;
+    color: #fff;
+}
+.b-add_to_list .plus {
+    color: #000000;
+    cursor: pointer;
+}
+.b-link_button.dark {
+    background-color: #b9c6cf;
+    border-color: #ffffff;
+    color: #fff;
+}
+.b-comment>.inner .name-date a.name {
+    color: #000000;
+    cursor: pointer;
+}
+.b-message>.inner .name-date a.name {
+    color: #000000;
+    cursor: pointer;
+}
+.b-js-link {
+    color: #444;
+    cursor: pointer;
+}
+.headline.linkheadline>a, .linkheadline.midheadline>a, .linkheadline.subheadline>a {
+    color: BLACK;
+}
+.p-dashboards-show .v2 .my-list .label .misc-links a {
+    color: #000000;
+}
+html[data-color-mode=light] {
+    --link-color: #000000;
+}
+.orange {
+    color: #ff4136;
+    background: #e5e5e5;
+    border-left: 5px solid #e5e5e5;
+}
+.p-dashboards-show .v2 .my-list {
+    background: #e7e7e7;
+    padding: 5px 10px 8px;
+}
+.skyblue {
+    color: #ff4136;
+    background: #e7e7e7;
+    border-left: 5px solid #e7e7e7;
+}
+.b-user_rate-history .score-time .stars-container .score {
+    color: #fc575e9c;
+    position: absolute;
+}
