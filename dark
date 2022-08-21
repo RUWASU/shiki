@@ -1,0 +1,380 @@
+body {
+    font-family: 'Century Gothic';
+    background-color: rgb(15, 15, 15);
+    background-image: url(https://camo-v3.shikimori.one/8ae8c1c…?url=https%3A%2F%2Fcamo-v3.shikimori.one%2Fc81efc4…%3Furl%3Dhttps%253A%252F%252Fcdn.discordapp.com%252Fattachments%252F362736360844689409%252F401483967221465100%252Ftumblr_static_f4cbmphn8f4k48o4o4ossc04od.png);
+    background-repeat: repeat;
+}
+.l-page, .tooltip-inner, .l-top_menu .inner {
+    background-color: rgb(15, 15, 15);
+    color: #b5b5b5 !important;
+    opacity: 0.98;
+}
+/* Блоки в профиле */
+@media only screen and (min-width: 768px) {
+  .p-profiles-show .profile-content .cc-2 > .c-column {
+    width: 100%;
+  }
+  .p-profiles-show .profile-content .cc-2 > .c-left {
+    position: relative;
+    width: 77%;
+    padding-right: 30px;
+    margin-right: 0;
+    z-index: 1;
+  }
+  .p-profiles-show .lifetime {
+    margin-bottom: 15px;
+  }
+  .p-profiles-show .profile-content .cc-2 > .c-right {
+    float: none;
+  }
+  .p-profiles-show .profile-content .cc-2 > .c-right .cc-2a {
+    width: 23%;
+    overflow: hidden;
+  }
+  .p-profiles-show .profile-content .cc-2 > .c-right .cc-2a > .c-column {
+    width: 100%;
+    margin: 0;
+  }
+  .p-profiles-show .profile-content .cc-2 > .c-right .cc-2a > .c-column:last-child {
+    margin-top: 15px;
+  }
+  .p-profiles-show .profile-content .cc-2 > .c-right > .block:last-child {
+    clear: both;
+  }
+}
+.c-additionals b, .time.checked, .title, .order-control, a:hover, .b-comments .comments-loader:hover, .b-comments .comments-hider:hover, .b-comments .comments-expander:hover, .subheadline, .subheadline>a, .before, .after, .action, .b-animes-menu .menu-topics-block a.entry .name:hover, .translated-after:hover, .time.checked:before, .subheadline>a:before, .before:hover, .after:hover, .action:hover, .b-tooltipped:hover, .edit:before, .remove-trigger .text, .trigger-arrow:hover, .b-add_to_list .plus, .p-dashboards .user_list .list-type>.title .switch, .b-topic-minified>.inner .status-line .additional .comments:before, .b-topic-minified>.inner .status-line .time.changed_at:before, .b-height_shortener .expand, .b-lang_trigger span, .b-comments .comments-collapser, .b-club .name, .b-list_switchers .switcher.posters.selected, .p-anime_videos-index .c-videos .video-variant-switcher, .b-video_variant .video-author, .b-rate .stars.score, .b-rate .score-notice, .b-db_entry>.c-about .contest_winners .medal:before, .item-add, .b-comment .inner .name-date a.name .normal, .item-mobile, .b-comment.aside-expanded>.inner aside.buttons .main-controls .item-reply, .b-comment.aside-expanded>.inner aside.buttons .main-controls .item-cancel {
+    color: #6c6775 !important;
+}
+.headline>a, .midheadline>a, .subheadline>a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: var(--link-color);
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    padding-right: 20px;
+}
+/* рамки для аниме и манги*/
+.subheadline {
+    font-size: 14px;
+    padding: 6px 10px 4px 8px;
+    line-height: 14px;
+}
+.headline, .midheadline, .subheadline {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: #000000;
+    border-left: 5px solid #000000;
+    color: var(--headline-color);
+    font-family: var(--font-alt);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: .13px;
+    line-height: 1.65;
+    margin-bottom: 10px;
+    padding: 4px 10px 2px;
+    position: relative;
+    text-transform: uppercase;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+    -webkit-font-smoothing: antialiased;
+}
+input[type=submit], .b-button, .subheadline, .trigger, .option, .p-dashboards-show .c-my_list, .b-link_button.dark, .green, .orange, .magenta, .yellow, .midheadline, .b-anime_status_tag.ongoing:before, .b-hot_topics, .b-main_search .input, .b-anime_status_tag.news:before, .locale-ru .b-new_marker:before, .b-anime_status_tag.critique:before, .b-anime_status_tag.anons:before, .b-anime_status_tag.released:before, .locale-ru .b-offtopic_marker:before, .b-broadcast_marker:before, .b-shiki_editor .body .editor textarea, .b-collection_search .field input, .p-user_rates-index .list-groups .summary.posters.list, .p-user_rates-index .list-groups .summary.posters.library, .b-block_list li.selected, .b-quote, body[data-locale=ru] .b-summary_marker:before, .b-shiki_editor.previewed .body .preview {
+    background: none !important;
+    border: 1px solid #b9b9b9 !important;
+    color: #ececec !important;
+}
+/*Цвет шрифта в профиле*/
+.time, .lines, .trigger, .option, a, .b-comments .comments-loader, .b-comments .comments-hider, .b-comments .comments-expander, .b-entry-info .line .value, .b-animes-menu .total-rates, .b-show_more:hover, .b-show_more-more .hide-more:hover, .b-animes-menu .menu-topics-block a.entry .name, header.head h1, header.head h2, .b-video_player .cc-player_controls .c-control, .b-hot_topics .topic.subject, .b-catalog_entry .cover .misc span, .l-top_menu .menu-items>.entry>a, .l-top_menu .submenu>.entry {
+    color: #c4c4c4 !important;
+}
+header.head .notice {
+    clear: left;
+    color: #c4c4c4;
+    font-size: 12px;
+    line-height: 1.65;
+    margin: 2px 0 2px 1px;
+}
+
+.profile-head {
+    padding-top: 180px;
+    background-image: url(https://camo-v3.shikimori.one/bc4c839…?url=https%3A%2F%2Fcamo-v3.shikimori.one%2F7ba19bf…%3Furl%3Dhttps%253A%252F%252Fcdn.discordapp.com%252Fattachments%252F362736360844689409%252F364931046166495232%252Fikari_shinji_1024x768_Oyashsiro-sama_14588.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -15px;
+    left: -15px;
+    width: 1000px;
+    opacity: 0.7;
+}
+/*Затемнее истории и др.*/
+.p-profiles .profile-head .c-history .entry img {
+float: left;
+margin: 2px 10px 5px 2px;
+max-height: 52px;
+max-width: 37px;
+filter: grayscale(55%); 
+}
+.b-catalog_entry .cover .image-decor img {
+    width: 100%;
+    filter: grayscale(55%);
+}
+.b-club .logo {
+    float: left;
+    line-height: 0;
+    margin-right: 10px;
+    max-width: 100%;
+    width: 48px;
+    filter: grayscale(55%);
+}
+.b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img {
+    display: block;
+    line-height: 0;
+    margin: 0 auto;
+    max-width: 100%;
+    filter: grayscale(55%);
+}
+.b-image.b-poster img {
+    max-width: 100%;
+}
+img {
+    filter: grayscale(60%) sepia(13%);
+}
+.p-profiles .profile-head .c-history .entry img,
+.b-user.avatar img,
+.b-club .logo,
+.b-catalog_entry .cover .image-decor img,
+.b-achievement .c-image .inner a img,
+.b-badge img {
+  filter: grayscale(60%) sepia(13%);
+  transition: filter .4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.p-profiles .profile-head .c-history .entry img:hover,
+.b-user.avatar img:hover,
+.b-club .logo:hover,
+.b-catalog_entry .cover .image-decor img:hover,
+.b-achievement .c-image .inner a img:hover,
+.b-badge img:hover {
+  filter: grayscale(0%) sepia(0%);
+}
+/*Центрование в заголовках*/
+
+.subheadline.m5 {
+    text-align: left!important;
+}
+.subheadline {
+    text-align: center;
+}
+.b-options-floated + .subheadline {
+  text-align: left;
+}
+/*Линии*/
+.b-stats_bar.anime .bar .first, .b-stats_bar.manga .bar .first {
+    background: #333333;
+}
+.b-stats_bar.anime .bar .second, .b-stats_bar.manga .bar .second, .b-stats_bar.lifetime .bar .first {
+    background: #645c6f;
+}
+.b-stats_bar .bar .third {
+    background: #645c6f;
+}
+.p-profiles-show .lifetime .title {
+    line-height: 1.65;
+    width: 100%;
+}
+.b-stats_bar .title {
+    color: #456;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 18px;
+}
+.bar.min, .bar.min:hover {
+    background: #6c6775 !important;
+}
+.p-user_rates-index .list-lines tr td {
+    vertical-align: top;
+}
+.p-user_rates-index .list-lines tr td .ongoing {
+    color: #ff4136;
+}
+.p-user_rates-index .list-lines tr.edit-form form {
+    background: #333;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+    padding: 5px 15px 7px;
+    display: block;
+    margin: 5px 0;
+    overflow: hidden;
+    padding: 5px 25px 10px 35px;
+    -webkit-transition: height .25s ease;
+    transition: height .25s ease;
+}
+.b-tag {
+    border-bottom: 1px dashed #bbb;
+    color: #c1c6cb;
+    cursor: default;
+    display: inline-block;
+    font-family: var(--font-alt);
+    letter-spacing: var(--font-alt-text-letter-spacing);
+    line-height: 16px;
+    margin-left: 3px;
+    margin-right: 9px;
+    padding-top: 1px;
+    text-decoration: none;
+    -webkit-transition: none;
+    transition: none;
+}
+/* Фиксированные размеры постеров */
+@import url(https://css-club.web.app/css/fixed_cover.min.css);
+/*Изменение цвета галочки в круге просмотренного*/ 
+.b-catalog_entry.completed .image-decor:before {
+    background: #fff;
+}
+.b-catalog_entry.planned .image-decor::before, .b-catalog_entry.watching .image-decor::before, .b-catalog_entry.completed .image-decor::before, .b-catalog_entry.rewatching .image-decor::before, .b-catalog_entry.on_hold .image-decor::before, .b-catalog_entry.dropped .image-decor::before {
+    border: 2px solid #333;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+    height: 28px;
+    width: 28px;
+    line-height: 28px;
+    content: '';
+    z-index: 1;
+}
+.b-catalog_entry.completed .image-decor:after {
+    color: #000;
+    content: "";
+}
+/*новое, уведомления*/
+body[data-locale=ru] .b-new_marker:before {
+    background-color: #ffffff;
+    border: 1px
+ solid #000000;
+    color: #000;
+    content: attr(data-text);
+    font-size: 11px;
+    font-family: var(--font-alt);
+    letter-spacing: var(--font-alt-text-letter-spacing);
+    line-height: 14px;
+    position: absolute;
+    text-align: center;
+    width: 38px;
+}
+.b-comments-notifier {
+    background: #000000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+}
+/*Кнопки предпросмотр и т.д.*/
+.b-button {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 0 10px;
+    background-color: #313a42e6;
+    border: 0;
+    clear: right;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+}
+.b-form input[type=submit] {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 0 10px;
+    background-color: #21211f;
+    border: 0;
+}
+.b-spoiler_block>span {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 0 10px;
+    background-color: #999;
+    border: 0;
+    clear: right;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+}
+.html[data-color-mode=light] {
+    --link-hover-color: #ffffff;
+}
+.p-profiles-show .lifetime .title .value {
+    font-size: 12px;
+    float: right;
+    margin-top: 16px;
+}
+/* Шапка профиля */
+.l-top_menu-v2 {
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 30px;
+  background: #000000;  
+}
+.l-top_menu-v2 {
+background: #000000;
+}
+.l-top_menu-v2 .menu-dropdown>span {
+background: #000000;
+}.l-top_menu-v2 .submenu {
+background: #000000;
+border-bottom: 1px solid #000000;
+border-left: 1px solid #000000;
+border-right: 1px solid #000000;
+}
+.menu-dropdown.profile {
+  background-color: #000000;
+}
+.x1000 .l-top_menu-v2 {
+  max-width: 2000px;
+}
+.b-comments-notifier {
+  top: 0px !important;
+}
+.p-profiles-show .lifetime .title {
+    line-height: 2;
+    width: 100%;
+    margin-top: 6px;
+}
+.b-anime_status_tag.released {
+    background-color: #000000;
+    border: 2px solid #000000;
+    color: #fff;
+    cursor: default;
+    display: inline-block;
+    font-family: var(--font-alt);
+    font-size: 12px;
+    letter-spacing: var(--font-alt-text-letter-spacing);
+    line-height: 1.4;
+    padding: 0 5px;
+    text-align: center;
+}
+.b-anime_status_tag.ongoing {
+    background-color: #000000;
+    border: 1px solid #000000;
+    color: #fff;
+    cursor: default;
+    display: inline-block;
+    font-family: var(--font-alt);
+    font-size: 12px;
+    letter-spacing: var(--font-alt-text-letter-spacing);
+    line-height: 1.4;
+    padding: 0 5px;
+    text-align: center;
+}
+.b-anime_status_tag.anons {
+    background-color: #000000;
+    border: 1px solid #000000;
+    color: #fff;
+    cursor: default;
+    display: inline-block;
+    font-family: var(--font-alt);
+    font-size: 12px;
+    letter-spacing: var(--font-alt-text-letter-spacing);
+    line-height: 1.4;
+    padding: 0 5px;
+    text-align: center;
+}
