@@ -1,0 +1,507 @@
+/* Скрываем родительский контейнер Активностей и Дниметра */
+.p-profiles-show .profile-content .cc-2 > .c-left {
+  display: none;
+}
+
+/* Растягиваем родительский контейнер Избранного, Друзей и Клубов */
+.p-profiles-show .profile-content .cc-2 > .c-right {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  float: none;
+  margin: 0;
+}
+
+/* Родительский блок Друзей и клубов – под историей */
+.p-profiles-show .profile-content .cc-2 > .c-right > .cc-2a {
+  flex-shrink: 0;
+  width: 23%;
+  margin: 0 0 0 30px !important;
+}
+
+/* Избранное – на всю доступную ширину */
+.p-profiles-show .profile-content .cc-2 > .c-right > .block {
+  flex-grow: 1;
+}
+
+/* Друзья и клубы друг над другом */
+.p-profiles-show .profile-content .cc-2 > .c-right .cc-2a > .c-column {
+  width: 100%;
+}
+/* Шапка профиля */
+.l-top_menu-v2 {
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 5px;
+  background: #000000;  
+}
+.l-top_menu-v2 {
+background: #000000;
+}
+.l-top_menu-v2 .menu-dropdown>span {
+background: #000000;
+}.l-top_menu-v2 .submenu {
+background: #000000;
+border-bottom: 1px solid #000000;
+border-left: 1px solid #000000;
+border-right: 1px solid #000000;
+}
+.menu-dropdown.profile {
+  background-color: #000000;
+}
+.x1000 .l-top_menu-v2 {
+  max-width: 2000px;
+}
+.b-comments-notifier {
+  top: 0px !important;
+}
+.x2000 .l-top_menu-v2 {
+  max-width: 2000px;
+}
+.b-comments-notifier {
+  top: 0px !important;
+}
+body {
+    background: black;
+    background-size: cover;
+}
+/*Затемнение профиля*/
+.p-profiles-show {
+    filter: grayscale(75%) opacity(0.92);
+}
+/*Центровка в заголовках*/
+/*Линии*/
+.b-stats_bar.anime .bar .first {
+    background: #4e5257;
+}
+.b-stats_bar.anime .bar .second {
+    background: #4e5257;
+}
+.b-stats_bar.manga .bar .first {
+    background: #4e5257;
+}
+.b-stats_bar.manga .bar .second {
+    background: #4e5257;
+}
+.bar.simple .bar.s0 {
+    background: #4e5257;
+}
+.bar.simple .bar.s1 {
+    background: #4e5257;
+}
+.bar.simple .bar.s2 {
+    background: #4e5257;
+}
+.bar.simple .bar.s3 {
+    background: #4e5257;
+}
+/*Шрифт, перекрас слов*/
+.b-stats_bar a.title {
+    color: #444;
+    cursor: pointer;
+}
+.b-link {
+    color: #000;
+    cursor: pointer;
+}
+.b-options-floated a, .b-options-floated .link {
+    color: #000000;
+    cursor: pointer;
+    cursor: pointer;
+    display: inline;
+    white-space: nowrap;
+}
+html[data-color-mode=light] {
+    --link-color: #000000;
+    --link-hover-color: #525252;
+    --link-active-color: #ff0202;
+    --link-border-color: rgba(#176093, 0.3);
+    --link-border-hover-color: rgba(#dd5202, 0.3);
+    --link-border-active-color: rgba(#ff0202, 0.3);
+    --headline-color: #123;
+    --headline-background-color: #d3d3d3;
+    --headline-border-color: #d3d3d3;
+    --headline-arrow-color: $gray-2;
+}
+.headline>a, .midheadline>a, .subheadline>a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #333;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.p-profiles .profile-head .c-info .c-additionals div a {
+    color: #000000;
+    cursor: pointer;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a {
+    color: #444;
+    cursor: pointer;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+.subheadline .misc-links>a {
+    color: #000000;
+    cursor: pointer;
+    display: inline;
+    font-size: 12px;
+    font-weight: 400;
+    padding-right: 0;
+    text-transform: none;
+}
+.b-dialog .to_dialog {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000000;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 400!important;
+    margin-left: 30px;
+}
+.b-dialog>.inner .name-date a.name {
+    color: #000000;
+    cursor: pointer;
+}
+.b-message>.inner .name-date a.name {
+    color: #000000;
+    cursor: pointer;
+}
+header.head h1 a.back, header.head h2 a.back {
+    color: #000000;
+    display: inline-block;
+    font-size: 24px;
+    margin-left: -5px;
+    position: relative;
+    width: 40px;
+}
+/* Отображение дат в истории */
+@import url(https://raw.githubusercontent.com/kaurkaur/Shikimori/master/CSS/HistoryDates.css);
+/*Цвет рейтинга*/
+/* Звёзды рейтинга (фоновые) */
+.b-rate .stars.background {
+  color: #C0C0C0;
+}
+
+/* Звёзды рейтинга (активные) */
+.b-rate .stars.score {
+  color: #000000;
+}
+
+/* Звёзды рейтинга (при наведении) */
+.b-rate .stars.hover {
+  color: #000000;
+}
+/* Фиксированные размеры постеров */
+@import url(https://css-club.web.app/css/fixed_cover.min.css);
+/*Изменение цвета галочки в круге просмотренного*/ 
+.b-catalog_entry.completed .image-decor:before {
+    background: #fff;
+}
+.b-catalog_entry.planned .image-decor::before, .b-catalog_entry.watching .image-decor::before, .b-catalog_entry.completed .image-decor::before, .b-catalog_entry.rewatching .image-decor::before, .b-catalog_entry.on_hold .image-decor::before, .b-catalog_entry.dropped .image-decor::before {
+    border: 2px solid #333;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+    height: 28px;
+    width: 28px;
+    line-height: 28px;
+    content: '';
+    z-index: 1;
+}
+.b-catalog_entry.completed .image-decor:after {
+    color: #000;
+    content: "";
+}
+/*Страница аниме*/
+.b-anime_status_tag.released {
+    background-color: #999;
+    border: 1px solid #ffffff;
+    color: #fff;
+    cursor: default;
+    display: inline-block;
+    font-family: var(--font-alt);
+    font-size: 12px;
+    letter-spacing: var(--font-alt-text-letter-spacing);
+    line-height: 1.4;
+    padding: 0 5px;
+    text-align: center;
+}
+.b-add_to_list.completed .trigger, .b-add_to_list.completed .option {
+    background: #999;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+.b-add_to_list.completed .edit {
+    cursor: pointer;
+    color: #f9f9f9;
+}
+.b-db_entry>.c-about .additional-links .line-container>.link, .b-db_entry>.c-about .additional-links .line-container>a {
+    color: #000000;
+    cursor: pointer;
+    float: left;
+    margin-left: 5px;
+}
+.b-anime_status_tag.other {
+    background-color: #999;
+    border: 1px solid #ffffff;
+    color: #fff;
+    cursor: default;
+    display: inline-block;
+    font-family: var(--font-alt);
+    font-size: 12px;
+    letter-spacing: var(--font-alt-text-letter-spacing);
+    line-height: 1.4;
+    padding: 0 5px;
+    text-align: center;
+}
+.b-catalog_entry .cover .title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000000;
+    cursor: pointer;
+    display: block;
+    font-weight: 700;
+    line-height: 1.65;
+    margin-top: 5px;
+}
+.b-link_button.dark {
+    background-color: #7b8084;
+    border-color: #000000;
+    color: #fff;
+}
+.b-form input[type=submit] {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 0 10px;
+    background-color: #333;
+    border: 0;
+    clear: right;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+}
+.b-button {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 0 10px;
+    background-color: #4e5257;
+    border: 0;
+    clear: right;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+}
+/*Новости*/
+.b-add_to_list.watching .trigger, .b-add_to_list.watching .option {
+    background: #7b8084;
+    border-color: #7b8084;
+    color: #ffffff;
+}
+.b-add_to_list.planned .trigger, .b-add_to_list.planned .option {
+    background: #7b8084;
+    border-color: #7b8084;
+    color: #ffffff;
+}
+.b-add_to_list .plus {
+    color: #ffffff;
+    cursor: pointer;
+}
+.b-anime_status_tag.episode, .b-anime_status_tag.studio {
+    background-color: #000000;
+    border: 1px solid #000000;
+    color: #fff;
+    cursor: default;
+    display: inline-block;
+    font-family: var(--font-alt);
+    font-size: 12px;
+    letter-spacing: var(--font-alt-text-letter-spacing);
+    line-height: 1.4;
+    padding: 0 5px;
+    text-align: center;
+}
+.b-anime_status_tag.anons {
+    background-color: #000000;
+    border: 1px solid #000000;
+    color: #fff;
+    cursor: default;
+    display: inline-block;
+    font-family: var(--font-alt);
+    font-size: 12px;
+    letter-spacing: var(--font-alt-text-letter-spacing);
+    line-height: 1.4;
+    padding: 0 5px;
+    text-align: center;
+}
+.b-anime_status_tag.ongoing {
+    background-color: #6a5076;
+    border: 1px solid #6a5076;
+    color: #fff;
+    cursor: default;
+    display: inline-block;
+    font-family: var(--font-alt);
+    font-size: 12px;
+    letter-spacing: var(--font-alt-text-letter-spacing);
+    line-height: 1.4;
+    padding: 0 5px;
+    text-align: center;
+}
+.b-js-link {
+    color: #000000;
+    cursor: pointer;
+    border-bottom-color: var(--link-border-color);
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+    display: inline-block;
+    line-height: 1;
+}
+.p-profiles .profile-head .c-history .entry img:not(:hover),
+.b-user.avatar img:not(:hover),
+.b-club .logo:not(:hover),
+.b-catalog_entry .cover .image-decor img:not(:hover),
+.b-achievement .c-image .inner a img:not(:hover),
+.b-badge img:not(:hover) {
+  filter: grayscale(45%) sepia(13%);
+}
+.p-user_rates-index .list-lines tr.edit-form form {
+    background: #999;
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    padding: 5px 15px 7px;
+    display: block;
+    margin: 5px 0;
+    overflow: hidden;
+    padding: 5px 25px 10px 35px;
+    -webkit-transition: height 0.25s ease;
+    transition: height 0.25s ease;
+}
+.b-form a.remove {
+    color: var(--link-color);
+    cursor: pointer;
+    border-bottom-color: var(--link-border-color);
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+    display: inline-block;
+    line-height: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #000000;
+    border-bottom-color: rgba(255,65,54,0.25);
+}
+/*Затемнее истории и др.*/
+.p-profiles .profile-head .c-history .entry img {
+float: left;
+margin: 2px 10px 5px 2px;
+max-height: 52px;
+max-width: 37px;
+filter: grayscale(55%); 
+}
+.b-catalog_entry .cover .image-decor img {
+    width: 100%;
+    filter: grayscale(55%);
+}
+.b-club .logo {
+    float: left;
+    line-height: 0;
+    margin-right: 10px;
+    max-width: 100%;
+    width: 48px;
+    filter: grayscale(55%);
+}
+.b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img {
+    display: block;
+    line-height: 0;
+    margin: 0 auto;
+    max-width: 100%;
+    filter: grayscale(55%);
+}
+.b-image.b-poster img {
+    max-width: 100%;
+}
+img {
+    filter: grayscale(60%) sepia(13%);
+}
+.p-profiles .profile-head .c-history .entry img,
+.b-user.avatar img,
+.b-club .logo,
+.b-catalog_entry .cover .image-decor img,
+.b-achievement .c-image .inner a img,
+.b-badge img {
+  filter: grayscale(60%) sepia(13%);
+  transition: filter .4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.p-profiles .profile-head .c-history .entry img:hover,
+.b-user.avatar img:hover,
+.b-club .logo:hover,
+.b-catalog_entry .cover .image-decor img:hover,
+.b-achievement .c-image .inner a img:hover,
+.b-badge img:hover {
+  filter: grayscale(0%) sepia(0%);
+}
+/*линии*/
+.subheadline {
+    text-align: center !important;
+}
+.subheadline {
+    font-size: 14px;
+    padding: 6px 10px 4px 8px;
+    line-height: 14px;
+}
+/*Анонс,онгоинг и др.*/
+.p-user_rates-index .list-lines tr td .ongoing {
+    color: #8b6399;
+}
+.p-user_rates-index .list-lines tr td .anons {
+    color: #fb7f7f;
+}
+.b-link_button.blue {
+    color: #805683;
+    background-color: #d3d3d3;
+    border-color: #ffffff;
+    border-width: 1px;
+}
+.b-link_button.dark {
+    background-color: #7b8084;
+    border-color: #ffffff;
+    color: #fff;
+}
+.b-spoiler_block>span {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 0 10px;
+    background-color: #d3d3d3;
+    border: 0;
+    clear: right;
+    color: #59485e;
+    cursor: pointer;
+}
+/*избранное, постеры в центре*/
+.cc-favourites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+/* Отображение дат в истории */
+@import url(https://raw.githubusercontent.com/kaurkaur/Shikimori/master/CSS/HistoryDates.css);
+
+/*список в таблице*/
+.p-user_rates-index .list-lines tr td {
+    padding: 1px 4px;
+    border: 1px solid;
+}
+.p-user_rates-index .list-lines tr td {
+    vertical-align: top;
+}
+.p-user_rates-index .list-lines tr .index {
+    color: rgb(0 0 0);
+}
